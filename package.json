@@ -1,0 +1,19 @@
+{
+  "name": "windows-ss-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start:png": "set FORMAT=png&&node index",
+    "start:100": "set RUNS=100&&node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "desktop-screenshot": "^0.1.1",
+    "screenshot-desktop": "^1.12.7",
+    "windows-ss": "git+https://github.com/Sxxov/windows-ss.git"
+  }
+}
